@@ -9,13 +9,13 @@ char op;
 
 printf("\n---Calculadora em C---\n");
 
-printf("Digite o 1° número: \n");
+printf("Digite o 1Â° nÃºmero: \n");
 scanf("%f", &a);
 
 printf("Digite o operador(+,-,*,/):\n");
 scanf(" %c", &op);
 
-printf("Digite o 2° número: \n");
+printf("Digite o 2Â° nÃºmero: \n");
 scanf("%f", &b);
 
 switch(op){
@@ -31,7 +31,7 @@ case '-':
 
 case '*':
     if(a == 0 || b == 0){
-        printf("\nMultiplicação por zero!Resultado: %.2f\n", resultado);
+        printf("\nMultiplicaÃ§Ã£o por zero!Resultado: %.2f\n", resultado);
 
     }else{
        resultado = a * b;
@@ -44,11 +44,11 @@ case '/':
         resultado = a/b;
         printf("\nResultado: %.2f\n", resultado);
     }else{
-        printf("\nERRO: divisão por zero!\n");
+        printf("\nERRO: divisÃ£o por zero!\n");
     }
     break;
 default:
-    printf("\nOperador inválido!\n");
+    printf("\nOperador invÃ¡lido!\n");
 
 }
 
